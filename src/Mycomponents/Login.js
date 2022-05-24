@@ -29,7 +29,7 @@ export default function Login() {
     }
     return (
         
-        <div className="h-screen bg-center bg-no-repeat bg-cover flex bg-[url('https://cdn.discordapp.com/attachments/845617551412297748/975016608328212490/bg.png')] w-screen h-screen">
+        <div className="h-screen bg-center bg-no-repeat bg-cover flex bg-[url('https://cdn.discordapp.com/attachments/810493382480494632/978243051573104680/Background_doodle.png')] w-screen h-screen">
             
             {/* <div className="justify-center w-full px-10">
                 <img src="https://cdn.discordapp.com/attachments/845617551412297748/974999383961641000/7.jpg" alt="LOGO"></img>
