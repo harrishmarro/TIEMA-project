@@ -89,7 +89,7 @@ export default function CompanyDetails() {
   width: '15%',
   padding: '10px',
   }}>
-  <Link to="/">+ Add Company</Link>
+  <Link to="/addcompany">+ Add Company</Link>
 </button>
     </div>
   </div>

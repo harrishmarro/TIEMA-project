@@ -10,30 +10,36 @@ export function useAuth(){
 export function AuthProvider({children}) {
     const [currentUser, setCurrentUser] = useState()
     const [loading, setLoading] = useState()
+
+    const login = (email,password)=>auth.signInWithEmailAndPassword(email,password);
     
-    function login(email,password){
-        return auth.signInWithEmailAndPassword(email,password)
-    }
+    // function login(email,password){
+    //     return auth.signInWithEmailAndPassword(email,password)
+    // }
+
     function resetPassword(email){
         return auth.sendPasswordResetEmail(email)
     }
 
-    useEffect(() => {
-    const unsubsribe = auth.onAuthStateChanged(user =>{ 
+    useEffect(() =>  auth.onAuthStateChanged(user =>{ 
         setCurrentUser(user)
         setLoading(false)
     })
-    return unsubsribe
-    },[])
+    ,[])
     
-    const value={
+    // const value={
+    //     currentUser,
+    //     login,
+    //     resetPassword
+
+    // }
+  return (
+    <AuthContext.Provider value={{
         currentUser,
         login,
         resetPassword
 
-    }
-  return (
-    <AuthContext.Provider value={value}>
+    }}>
         {!loading && children}
     </AuthContext.Provider>
   )
