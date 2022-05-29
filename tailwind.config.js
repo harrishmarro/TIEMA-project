@@ -1,7 +1,17 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+       backgroundImage:{
+         'bgimg': "url('./img/constantBackground.png')",
+       },
+       spacing:{
+         'c-center': '45%',
+         'logo-center': '3%',
+       }
+    },
   },
   plugins: [],
 }
