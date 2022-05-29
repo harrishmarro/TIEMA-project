@@ -8,13 +8,15 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <>
-    <div className='fixed'>
-    <div className="w-52 h-full shadow-2xl absolute" id="sidenavSecExample">
+    <div className='fixed '>
+    <div className="w-56  shadow-2xl bg-white/10 absolute" id="sidenavSecExample">
   <div className="pt-4 pb-2 px-6">
-    <a href="/login">
+    <a href="#!">
       <div className="flex items-center">
         <div className="shrink-0">
+          <Link to="/">
           <img src={Logo} className="rounded-full w-48" alt="Avatar"/>
+          </Link>
         </div>
         
       </div>
@@ -29,7 +31,7 @@ export default function Header() {
 
         </div>
         <div className="2 flex">
-        <span className="text-xl font-bold py-5">Company Details</span>
+        <span className="text-xl text-white font-bold py-5">Company Details</span>
 
         </div>
       </a>
@@ -44,7 +46,7 @@ export default function Header() {
         <img aria-hidden="true" src={allocated} focusable="false" data-prefix="fas" className="w-20 h-20 mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"/>
         </div>
        <div className="2 flex">
-       <span className="text-xl font-bold py-5">Allocate Internship</span>
+       <span className="text-xl font-bold text-white  py-5">Allocate Internship</span>
        </div>
        
       </a>
@@ -59,7 +61,7 @@ export default function Header() {
         <div className="1 flex"> 
         <img aria-hidden="true" src={report} focusable="false" data-prefix="fas" className="w-20 h-20 mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"/>
         </div>
-       <div className="2 flex"><span className="text-xl font-bold py-5">Report Verification</span></div>
+       <div className="2 flex"><span className="text-xl  text-white font-bold py-5">Report Verification</span></div>
         
       </a>
     </li>  
