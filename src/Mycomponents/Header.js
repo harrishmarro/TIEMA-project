@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
     <div className='fixed '>
-    <div className="w-56  shadow-2xl bg-white/10 absolute" id="sidenavSecExample">
+    <div className="w-56 h-screen shadow-2xl bg-white/10 absolute" id="sidenavSecExample">
   <div className="pt-4 pb-2 px-6">
     <a href="#!">
       <div className="flex items-center">

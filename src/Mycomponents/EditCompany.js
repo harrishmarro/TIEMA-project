@@ -6,64 +6,56 @@ import { MdEdit } from "react-icons/md";
     <div>
         <div className='pl-80 py-10'>   
         <div className="text-white bold">
-            <h1 className='text-4xl pb-6'>Edit intership details</h1>
-            <h1 className="text-2xl">ABC COMPANY, COIMBATORE BRANCH</h1>
-            <h2>Summer Intern</h2>
+            <h1 className='text-4xl pb-6'>Edit Company details</h1>
+            <h1 className="text-2xl flex flex-row items-center">ABC COMPANY, COIMBATORE BRANCH<div className="px-2"><MdEdit size="26.3px" /></div></h1>
         </div>
         <div className='bg-white backdrop-filter backdrop-blur-xl bg-opacity-10 rounded-lg mr-40'>
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg pt-9">
-                    <h3 className="basis-1/3">End Date</h3>
+                    <h3 className="basis-1/3">CIN/TIN Number</h3>
                     <h3 className="basis-1/3"> - </h3>
-                    <h3 className="basis-1/3">March 18,2022</h3>
+                    <h3 className="basis-1/3">L21091KA2019OPC1413</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Start Date</h3>
+                    <h3 className="basis-1/3">Udyog Aadhar</h3>
                     <h3 className="basis-1/3"> - </h3>
-                    <h3 className="basis-1/3">May 20,2022</h3>
+                    <h3 className="basis-1/3">3982420568</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Duration</h3>
+                    <h3 className="basis-1/3">GST</h3>
                     <h3 className="basis-1/3"> - </h3>
-                    <h3 className="basis-1/3">2 months</h3>
+                    <h3 className="basis-1/3">TN2391847</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Domain</h3>
-                    <h3 className="basis-1/3"> -  </h3>
-                    <h3 className="basis-1/3">Blockchain</h3>
+                    <h3 className="basis-1/3">Company Address</h3>
+                    <h3 className="basis-1/3"> - </h3>
+                    <h3 className="basis-1/3">Sri Sairam Engineering College, West Tambaram, Kanchipuram - 600044</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Stipend</h3>
+                    <h3 className="basis-1/3">Company SPOC 1 Name</h3>
                     <h3 className="basis-1/3"> -  </h3>
-                    <h3 className="basis-1/3">Rs. 10000</h3>
+                    <h3 className="basis-1/3">Gokul</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Trainee Type</h3>
+                    <h3 className="basis-1/3">Company SPOC 1 Email ID</h3>
                     <h3 className="basis-1/3"> -  </h3>
-                    <h3 className="basis-1/3">Students</h3>
-                    <MdEdit size="26.3px" />
-                </div>
-
-                <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg">    
-                    <h3 className="basis-1/3">Requirement</h3>
-                    <h3 className="basis-1/3"> -  </h3>
-                    <h3 className="basis-1/3">25 Students</h3>
+                    <h3 className="basis-1/3">gokul@gmail.com</h3>
                     <MdEdit size="26.3px" />
                 </div>
 
                 <div className="flex flex-row w-11/12 ml-10 mt-10 text-white text-lg pb-9">    
-                    <h3 className="basis-1/3">Pre-Requisites</h3>
+                    <h3 className="basis-1/3">Company SPOC 1 number</h3>
                     <h3 className="basis-1/3"> -  </h3>
-                    <h3 className="basis-1/3">Fundamentals of Blockchain</h3>
+                    <h3 className="basis-1/3">7358416777</h3>
                     <MdEdit size="26.3px" />
                 </div>
         </div>
