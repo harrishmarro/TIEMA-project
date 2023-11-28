@@ -13,4 +13,4 @@ TIEMA Internship Tracker is an internship tracker website developed using ReactJ
 
 ## Current status
 
-The frontend for this website is under development.
+The frontend components for this website is under development.
